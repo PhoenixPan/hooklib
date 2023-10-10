@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "compilerOptions": {
+    "target": "ES5",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    //import {} from '@'
+    //import {} from 'phoenixHooks'
+    "paths": {
+      "@/*": ["src/*"],
+      "phoenixHooks": ["./packages/hooks/src/index.ts"],
+      "phoenix-hooks": ["./packages/hooks/src/index.ts"],
+      "phoenixHooks/lib/*": ["./packages/hooks/src/*"],
+      "phoenix-hooks/lib/*": ["./packages/hooks/src/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "importHelpers": true
+  },
+  "exclude": ["node_modules", "lib", "es", "dist", "example"]
+}
