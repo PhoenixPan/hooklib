@@ -4,14 +4,17 @@ module.exports = {
   clearMocks: true,
   testPathIgnorePatterns: ['/.history/'],
   modulePathIgnorePatterns: ['<rootDir>/package.json'],
+  moduleNameMapper: {
+    '^lodash-es$': 'lodash',
+  },
   resetMocks: false,
   setupFiles: ['./jest.setup.js', 'jest-localstorage-mock'],
   setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
-  // 声明TS入口
+  // Declare TS entry
   transform: {
     '^.+\\.tsx?$': ['ts-jest', { tsconfig: 'tsconfig.json' }],
   },
-  // 测试覆盖率
+  // Test coverage
   collectCoverageFrom: [
     '<rootDir>/**/src/**/*.{js,jsx,ts,tsx}',
     '!**/demo/**',
