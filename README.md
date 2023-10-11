@@ -1,18 +1,18 @@
 # Phoenix's demo lib
 
-## Capability
+## Highlights
 
-### 1. Robustness
+### 1. Usability
 
-Wrote in Typescript with complete declaration files
+UMD modules that can be used out of box on any platforms, so easy!
 
-### 2. Well-documented
+### 2. Robustness
 
-Came with documents and demo showcase on a static website
+Wrote in Typescript with complete declaration files and 100% test coverage to ensure reliability
 
-### 3. Great test coverage
+### 3. Well-documented
 
-Covered 100% with tests to improve reliability
+Great documentation and demo showcase deployed a static website
 
 ## Purpose
 
@@ -56,5 +56,3 @@ pnpm run changelog
 
 - **My website** <https://www.phoenixpan.com/>
 - **GitHub**: <https://https://github.com/PhoenixPan>
-
-</br>

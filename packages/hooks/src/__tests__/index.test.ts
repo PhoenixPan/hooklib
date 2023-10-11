@@ -1,9 +1,9 @@
-import * as phoenixHooks from '..';
+import * as hooks from '..';
 
-describe('phoenixHooks', () => {
+describe('phoenixPanHooks', () => {
   test('exports modules should be defined', () => {
-    Object.keys(phoenixHooks).forEach((hook) => {
-      expect(phoenixHooks[hook]).toBeDefined();
+    Object.keys(hooks).forEach((hook) => {
+      expect(hooks[hook]).toBeDefined();
     });
   });
 });

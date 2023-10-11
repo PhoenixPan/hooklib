@@ -29,7 +29,7 @@ export default {
   manifest: {},
   hash: true,
   alias: {
-    phoenixHooks: process.cwd() + '/packages/hooks/src/index.ts',
+    phoenixPanHooks: process.cwd() + '/packages/hooks/src/index.ts',
   },
   resolve: {
     includes: ['docs', 'packages/hooks/src'],

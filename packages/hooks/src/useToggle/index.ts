@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 
-// switch between:
+// cases:
 // 1. true/false
 // 2. only one value, defaultValue
 // 3. defaultValue left / reverseValue right

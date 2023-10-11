@@ -9,13 +9,11 @@
     "sourceMap": true,
     "baseUrl": ".",
     //import {} from '@'
-    //import {} from 'phoenixHooks'
+    //import {} from 'phoenixpan-hooks'
     "paths": {
       "@/*": ["src/*"],
-      "phoenixHooks": ["./packages/hooks/src/index.ts"],
-      "phoenix-hooks": ["./packages/hooks/src/index.ts"],
-      "phoenixHooks/lib/*": ["./packages/hooks/src/*"],
-      "phoenix-hooks/lib/*": ["./packages/hooks/src/*"]
+      "phoenixpan-hooks": ["./packages/hooks/src/index.ts"],
+      "phoenixpan-hooks/lib/*": ["./packages/hooks/src/*"]
     },
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,

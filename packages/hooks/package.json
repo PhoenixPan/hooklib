@@ -1,6 +1,6 @@
 {
-  "name": "phoenix-hooks",
-  "version": "0.0.1",
+  "name": "phoenixpan-hooks",
+  "version": "1.0.3",
   "description": "Phoenix's custom hooks",
   "keywords": [
     "react",
@@ -9,7 +9,7 @@
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "types": "./lib/index.d.ts",
-  "unpkg": "dist/phoenixHooks.js",
+  "unpkg": "dist/phoenixpan-hooks.js",
   "sideEffects": false,
   "authors": "Phoenix Pan",
   "publishConfig": {

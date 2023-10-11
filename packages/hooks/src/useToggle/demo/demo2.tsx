@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { useToggle } from 'phoenixHooks';
+import { useToggle } from 'phoenixpan-hooks';
 
 export default () => {
   const [state, { toggle, set, setLeft, setRight }] = useToggle('Hello', 'World');

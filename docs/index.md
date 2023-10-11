@@ -13,20 +13,20 @@ footer: Copyright (c) © 2023 by Phoenix Pan, All Rights Reserved
 
 ## ✨ Feature
 
-- 可靠的代码健壮：使用 Typescript 构建，提供完善的类型定义文件
-- 完善的文档能力：支持文档记录，支持 demo 演示
-- 完整的测试用例：配套完整的测试用例，帮助您提升项目健壮性
+- Robustness：Wrote in Typescript with complete declaration files
+- Well-documented：Came with documents and demo showcase on a static website
+- Great test coverage：Covered 100% with tests to improve reliability
 
 ## 📦 Installation
 
 ```bash
-$ pnpm install --save phoenix-hooks
+$ pnpm install --save phoenixpan-hooks
 # or
-$ yarn add phoenix-hooks
+$ yarn add phoenixpan-hooks
 ```
 
 ## 🔨 Usage
 
 ```ts
-import { useToggle } from 'phoenix-hooks';
+import { useToggle } from 'phoenixpan-hooks';
 ```
