@@ -1,8 +1,7 @@
 ---
 title: Home
 hero:
-  image: /short-logo.png
-  desc: Hooks lib
+  image: /logo.png
   actions:
     - text: Docs
       link: /docs
