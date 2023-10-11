@@ -1,7 +1,4 @@
-// dumi config
 import { menus } from './hooks';
-
-const packages = require('../packages/hooks/package.json');
 
 export default {
   exportStatic: {},
@@ -47,7 +44,6 @@ export default {
     { title: 'Hooks', path: '/hooks' },
   ],
   menus: {
-    //doc folder
     '/': [
       {
         title: 'Home',
@@ -60,6 +56,6 @@ export default {
         path: '/docs',
       },
     ],
-    // '/hooks': menus,
+    '/hooks': menus,
   },
 };

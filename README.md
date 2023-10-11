@@ -52,7 +52,7 @@ npm install -g conventional-changelog-cli
 pnpm run changelog
 ```
 
-## 📧 Contact
+## Contact
 
 - **My website** <https://www.phoenixpan.com/>
 - **GitHub**: <https://https://github.com/PhoenixPan>
