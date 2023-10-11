@@ -9,6 +9,7 @@ export default {
     type: 'none',
     exclude: [],
   },
+  publicPath: '/phoenixpan-lib/',
   history: { type: 'hash' },
   // 用来实现按需加载的插件
   extraBabelPlugins: [
