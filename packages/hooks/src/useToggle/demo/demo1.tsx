@@ -1,6 +1,6 @@
 /**
  * title: Description
- * desc: It's a boolean toggle by default, the same as useBoolean
+ * desc: It's a boolean toggle by default, the same as useBoolean.
  */
 
 import React from 'react';

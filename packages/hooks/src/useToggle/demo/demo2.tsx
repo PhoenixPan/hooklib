@@ -1,6 +1,6 @@
 /**
  * title: Description
- * desc: Take two parameters and switch between them
+ * desc: Take two parameters and switch between them.
  */
 
 import React from 'react';

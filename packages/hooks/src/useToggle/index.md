@@ -30,23 +30,23 @@ const [state, { toggle, set, setLeft, setRight }] = useToggle<T, U>(defaultValue
 
 ### Params
 
-| Parameter    | Description                 | Type | Default Value |
+| Parameters   | Description                 | Type | Default Value |
 | ------------ | --------------------------- | ---- | ------------- |
 | defaultValue | Optional, the default value | `T`  | `false`       |
 | reverseValue | Optional, the reverse value | `U`  | -             |
 
 ### Result
 
-| Parameter | Description      | Type      |
-| --------- | ---------------- | --------- |
-| state     | current value    | -         |
-| actions   | action functions | `Actions` |
+| Parameters | Description      | Type      |
+| ---------- | ---------------- | --------- |
+| state      | current value    | -         |
+| actions    | action functions | `Actions` |
 
 ### Actions
 
-| Parameter | Description                                               | Type                      |
-| --------- | --------------------------------------------------------- | ------------------------- |
-| toggle    | toggle state                                              | `() => void`              |
-| set       | update state                                              | `(state: T \| U) => void` |
-| setLeft   | set to defaultValue                                       | `() => void`              |
-| setRight  | set to reverseValue if available, otherwise !defaultValue | `() => void`              |
+| Parameters | Description                                               | Type                      |
+| ---------- | --------------------------------------------------------- | ------------------------- |
+| toggle     | toggle state                                              | `() => void`              |
+| set        | update state                                              | `(state: T \| U) => void` |
+| setLeft    | set to defaultValue                                       | `() => void`              |
+| setRight   | set to reverseValue if available, otherwise !defaultValue | `() => void`              |
