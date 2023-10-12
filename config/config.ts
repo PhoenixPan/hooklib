@@ -22,7 +22,7 @@ export default {
   mode: 'site',
   title: 'phoenixpan lib',
   favicon: '/favicon.png',
-  logo: '/logo.png',
+  logo: '/phoenixpan-lib/logo.png',
   dynamicImport: {},
   manifest: {},
   hash: true,
@@ -37,7 +37,7 @@ export default {
       rel: 'stylesheet',
       href: 'https://unpkg.com/@alifd/theme-design-pro@0.6.2/dist/next-noreset.min.css',
     },
-    { rel: 'stylesheet', href: '/style.css' },
+    { rel: 'stylesheet', href: '/phoenixpan-hooks/style.css' },
   ],
   navs: [
     { title: 'Docs', path: '/docs' },

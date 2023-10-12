@@ -1,7 +1,7 @@
 ---
 title: Home
 hero:
-  image: /logo.png
+  image: /phoenixpan-lib/logo.png
   actions:
     - text: Docs
       link: /docs
@@ -23,6 +23,9 @@ $ pnpm install --save phoenixpan-hooks
 # or
 $ yarn add phoenixpan-hooks
 ```
+
+Or through CDN:
+`https://unpkg.com/phoenixpan-hooks`
 
 ## 🔨 Usage
 
