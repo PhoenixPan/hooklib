@@ -30,4 +30,8 @@ export const menus = [
     title: 'Advanced',
     children: ['useLatest', 'useMemoizedFn'],
   },
+  {
+    title: 'DOM',
+    children: ['useTitle'],
+  },
 ];

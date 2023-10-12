@@ -1,15 +1,19 @@
 /**
  * title: Description
- * desc: useLatest 返回的永远是最新值
+ * desc: useLatest always return the latest value
  */
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useLatest } from 'phoenixpan-hooks';
 
 export default () => {
   const [count, setCount] = useState(0);
 
   const latestCountRef = useLatest(count);
+  console.log(latestCountRef.current());
+
+  // const latestCountRef = useRef(count);
+  // console.log('re', count, latestCountRef);
 
   useEffect(() => {
     const interval = setInterval(() => {

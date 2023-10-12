@@ -5,7 +5,7 @@ nav:
 
 # useLatest
 
-返回当前最新值的 Hook，可以避免闭包问题。
+A hook that returns the latest value of the type, help resolve the stale closure issue in custom hooks.
 
 ## Demo
 

@@ -21,7 +21,7 @@ export default {
   ],
   mode: 'site',
   title: 'phoenixpan lib',
-  favicon: '/favicon.png',
+  favicon: '/phoenixpan-lib/favicon.png',
   logo: '/phoenixpan-lib/logo.png',
   dynamicImport: {},
   manifest: {},

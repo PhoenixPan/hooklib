@@ -1,11 +1,12 @@
 import { useMemo } from 'react';
 import useToggle from '../useToggle';
 
+type Fn = () => void;
 export interface Actions {
-  setTrue: () => void;
-  setFalse: () => void;
+  setTrue: Fn;
+  setFalse: Fn;
   set: (value: boolean) => void;
-  toggle: () => void;
+  toggle: Fn;
 }
 
 export default function useBoolean(defaultValue = false): [boolean, Actions] {

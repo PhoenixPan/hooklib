@@ -5,10 +5,12 @@ import { useMemo, useState } from 'react';
 // 2. only one value, defaultValue
 // 3. defaultValue left / reverseValue right
 
+type Fn = () => void;
+
 export interface Actions<T> {
-  toggle: () => void;
-  setLeft: () => void;
-  setRight: () => void;
+  toggle: Fn;
+  setLeft: Fn;
+  setRight: Fn;
   set: (value) => void;
 }
 
